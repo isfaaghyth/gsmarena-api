@@ -1,6 +1,6 @@
 <?php
     require("gsm.php");
-    $query = isset($_GET['q']) ? $_GET['q'] : NULL;
+    $query = isset($_GET['query']) ? $_GET['query'] : NULL;
     
     if ($query !== NULL) {
         $gsm = new gsm();

@@ -12,6 +12,7 @@ class Gsm
     
     function __construct()
     {
+		require("simple_html_dom.php");
 		// Fix bug slug symbol
 		$this->simbol = array("&", "+");
         $this->kata = array("_and_", "_plus_");
